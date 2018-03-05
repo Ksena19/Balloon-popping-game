@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.ballon-gallery {
+  max-width: 40%;
+  margin: 0 auto 100px;
+
+}
+.ballon-gallery div {
+  display: inline-block;
+}
+.ballon {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+.ballon:nth-child(2n) {
+  background-color: red;
+}
+
+.ballon:nth-child(2n+1) {
+  background-color: yellow;
+
+}
+#yay {
+  display: none;
+  font-size: 30px;
+  color: red;
+}
